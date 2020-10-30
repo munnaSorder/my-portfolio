@@ -1,0 +1,13 @@
+.download-btn{
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    background-color: orange;
+    padding: 10px 15px;
+    border: 2px solid #ffb52d;
+    transition:all 0.5s;
+}
+.download-btn:hover{
+    color: orange;
+    background-color:white;
+}

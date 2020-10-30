@@ -1,0 +1,36 @@
+.border-control{
+    border-top: 2px solid rgba(0,0,0,.1)!important;
+}
+.info-text{
+    font-size:12px;
+}
+.btn-contact{
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    background-color: orange;
+    padding: 10px 15px;
+    border: 2px solid #ffb52d;
+    transition:all 0.5s;
+}
+.btn-contact:hover{
+    color: orange;
+    background-color:white;
+}
+.header-form-text{
+    font-size:18px!important;
+}
+input::placeholder{
+    font-size:12px;
+}
+input[type="text"],input[type="email"]
+{
+    font-size:14px;
+    
+}
+textarea::placeholder{
+    font-size: 12px!important;
+}
+.text-size-cn{
+    font-size:12px;
+}
