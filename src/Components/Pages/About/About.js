@@ -1,5 +1,6 @@
 import React from 'react';
 import './About.css'
+import resume from '../../../ArifurRahmanMunnaResume.pdf'
 const About = () => {
     return (
         <div>
@@ -18,7 +19,7 @@ const About = () => {
                         <p>
                             You have an idea, you need someone to bring it ot life. Or you already have a product that needs to be redined to meet the demand of 2017 users!. This is where i come in! With my knowledge and creativity. I can take your idea, your product to the next level. Let's have a chat and discuss your idea!
                         </p> 
-                        <a className="btn download-btn" target="_blank" href="https://docs.google.com/document/d/1SUlBBv_CKAoP6MiLiKxI0M9b1vzZCCYQsrHCiJj0-CU/edit">Download Resume</a>                
+                        <a className="btn download-btn" href={resume} download="ArifurRahmanMunnaResume.pdf">Download Resume</a>                
                         </div>
                     </div>
                     <div class="col-md-3 col-sm-4 col-xs-6">
