@@ -1,4 +1,39 @@
-.blog-container{
-    margin-top:100px;
+.blog-container {
+    margin-top: 100px;
     height: 200px;
+}
+
+.col-container {
+    box-shadow: -7px 0px 12px -6px #7a00b7;
+    margin-bottom: 40px;
+    background-color: #904dad;
+    padding-bottom: 15px;
+    border-radius: 10px;
+}
+
+.row-container {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.more-btn {
+    background-color: orange;
+    border: 1px orange;
+    color: white;
+    transition: all 0.5s;
+}
+
+.more-btn:hover {
+    background-color: #fff;
+    color: orange;
+}
+
+.love-btn {
+    width: 30px;
+    height: 30px;
+    transition: all 0.5s;
+}
+
+.love-btn:hover {
+    transform: rotate(360deg)
 }
