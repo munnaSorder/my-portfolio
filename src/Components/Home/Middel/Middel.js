@@ -1,8 +1,7 @@
 import React from 'react';
-import logo from '../../../image/logo.jpg'
-import play from '../../../image/icon/play.png'
-import './Middel.css'
 import { Link } from 'react-router-dom';
+import logo from '../../../image/logo.jpg';
+import './Middel.css';
 const Middel = () => {
     return (
         <div>
@@ -30,7 +29,7 @@ const Middel = () => {
                 <h3><i class="fa fa-thumbs-up fa-2x mr-3"></i> I am available for freelance hire</h3>
 
                 <nav class="cl-effect-2">
-                  <Link to="/contact" className="btn btn-contact btn-hire">Hire Me</Link>
+                  <Link to="/contact" className="btn  btn-hire">Hire Me</Link>
                 </nav>
               </div>
             </div>

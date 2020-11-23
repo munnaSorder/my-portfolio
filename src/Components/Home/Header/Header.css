@@ -1,3 +1,13 @@
-.header-container{
+.header-container {
     background-color: black;
+}
+
+.btn-hire {
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    background-color: orange;
+    border: 2px solid #ffb52d;
+    transition: all 0.5s;
+    padding: 0px 35px;
 }

@@ -1,3 +1,10 @@
-.footer-container{
-    height:53px;
+.footer-container {
+    height: 150px;
+}
+
+.overlay-custom {}
+
+.footer-text {
+    opacity: 1 !important;
+    margin-top: 60px;
 }
