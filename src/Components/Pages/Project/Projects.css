@@ -1,5 +1,32 @@
-@media screen and (min-width: 480px) {
-    .blog-container{
-        margin-bottom: 200px;
-    }
-  }
+.tools-item {
+    background-color: #54156f87;
+    padding: 2px 5px;
+    margin-right: 5px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.about-card {
+    margin-top: 10px;
+    margin-bottom: -10px;
+}
+
+.linkIcon {
+    margin-top: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 50%;
+    transition: all 0.5s;
+}
+
+.linkIcon:hover {
+    background-color: white;
+    transform: rotate(360deg);
+}
+
+.team-container {
+    margin-bottom: 60px;
+}
+
+.team-title {
+    text-align: center;
+}
