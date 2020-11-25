@@ -34,6 +34,8 @@ const provideService = [
         about: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.'
     }
 ]
+const technology = ['HTML', 'CSS', 'SASS', 'Bootstrap', 'JavaScript', 'JQuery', 'ReactJS', 'NodeJS', 'MongoDB', 'Express', 'Firebase'];
+const tools = ['Git', 'Webpack', 'VS Code', 'Extension', 'Chrome Dev Tool', 'Netlify', 'Heroku', 'Jasmine', 'Karma', 'Jenkins', 'JIRA']
 const About = () => {
     return (
         <div>
@@ -59,17 +61,11 @@ const About = () => {
                         <h2 style={{color:"orange"}}><i class="mr-2 fa fa-building"></i>Technology</h2>
                         <div class="block">
                         <ul class="">
-                            <li><h4>HTML</h4></li>
-                            <li><h4>CSS</h4></li>
-                            <li><h4>SASS</h4></li>
-                            <li><h4>Bootstrap</h4></li>
-                            <li><h4>JavaScript</h4></li>
-                            <li><h4>JQuery</h4></li>
-                            <li><h4>ReactJS</h4></li>
-                            <li><h4>NodeJS</h4></li>
-                            <li><h4>MongoDB</h4></li>
-                            <li><h4>Express</h4></li>
-                            <li><h4>FireBase</h4></li>
+                           {
+                               technology.map(technology => <li>
+                                   <h4>{technology}</h4>
+                               </li>)
+                           }
                         </ul>
                         </div>  
                     </div>
@@ -77,17 +73,11 @@ const About = () => {
                         <h2 style={{color:"orange"}}><i class="mr-2 fa fa-book"></i>Tools</h2>
                         <div class="block">
                         <ul class="">
-                            <li><h4>Git</h4></li>
-                            <li><h4>Webpack</h4></li>
-                            <li><h4>VS Code</h4></li>
-                            <li><h4>Extension</h4></li>
-                            <li><h4>JavaScript</h4></li>
-                            <li><h4>Chrome Dev Tool</h4></li>
-                            <li><h4>Netlify</h4></li>
-                            <li><h4>Heroku</h4></li>
-                            <li><h4>Jasmine</h4></li>
-                            <li><h4>Karma</h4></li>
-                            <li><h4>Jenkins</h4></li>
+                            {
+                                tools.map(tools => <li>
+                                    <h4>{tools}</h4>
+                                </li>)
+                            }
                         </ul>
                         </div> 
                     </div>
