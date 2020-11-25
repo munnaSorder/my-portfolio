@@ -44,7 +44,7 @@ const About = () => {
                 <div class="col-md-10 col-md-offset-1 col-sm-12">
                     <div class="row">
                     <div class="col-md-5 col-sm-4 col-xs-12">
-                        <h2 style={{color:"orange"}}><i class="mr-2 fa fa-user"></i>About me</h2>
+                        <h2 style={{color:"orange"}}><i style={{marginRight:"8px"}} class="fa fa-user"></i>About me</h2>
                         <div class="block">
                         <p>
                         I am a frontend web developer. I can provide clean code
@@ -58,8 +58,8 @@ const About = () => {
                         </div>
                     </div>
                     <div class="col-md-3 col-sm-4 col-xs-6">
-                        <h2 style={{color:"orange"}}><i class="mr-2 fa fa-building"></i>Technology</h2>
-                        <div class="block">
+                        <h2 style={{color:"orange"}}><i style={{marginRight:"5px"}} className="fa fa-building"></i>Technology</h2>
+                        <div className="block">
                         <ul class="">
                            {
                                technology.map(technology => <li>
@@ -70,7 +70,7 @@ const About = () => {
                         </div>  
                     </div>
                     <div class="col-md-4 col-sm-4 col-xs-6">
-                        <h2 style={{color:"orange"}}><i class="mr-2 fa fa-book"></i>Tools</h2>
+                        <h2 style={{color:"orange"}}><i style={{marginRight:"8px"}} className="fa fa-book"></i>Tools</h2>
                         <div class="block">
                         <ul class="">
                             {
