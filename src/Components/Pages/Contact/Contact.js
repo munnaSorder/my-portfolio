@@ -37,7 +37,7 @@ const Contact = () => {
           <div className="col-sm-12 text-center text-capitalize">
             <h1>want to discuss a project?</h1>
             <h4>just drop a message below and i'll get in touch!</h4>
-            <hr className="border-control"/>
+            <hr style={{width: '325px', backgroundColor: '#fbff00'}} className="border-control"/>
           </div>
         </div>
         <div className="row">
