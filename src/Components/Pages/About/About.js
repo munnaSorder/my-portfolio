@@ -1,6 +1,39 @@
 import React from 'react';
-import './About.css'
-import resume from '../../../ArifurRahmanMunnaResume.pdf'
+import resume from '../../../ArifurRahmanMunnaResume.pdf';
+import './About.css';
+import ServiceList from './ServiceList';
+const provideService = [
+    {
+        icon: 'fa fa-code fa-3x mt-2',
+        name: 'Web Development',
+        about: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.'
+    },
+    {
+        icon: 'fa fa-code fa-3x mt-2',
+        name: 'Web Design',
+        about: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.'
+    },
+    {
+        icon: 'fa fa-magic fa-3x mt-2',
+        name: 'UI/UX Design',
+        about: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.'
+    },
+    {
+        icon: 'fa fa-camera fa-3x mt-2',
+        name: 'Photography',
+        about: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.'
+    },
+    {
+        icon: 'fa fa-lightbulb-o fa-3x mt-2',
+        name: 'Brand Identity',
+        about: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.'
+    },
+    {
+        icon: 'fa fa-user-secret fa-3x mt-2',
+        name: 'analytics',
+        about: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.'
+    }
+]
 const About = () => {
     return (
         <div>
@@ -72,60 +105,9 @@ const About = () => {
                 </div>
                 <section class="container">
                 <div class="row">
-                    <div class="col-sm-4 col-xs-6">
-                    <div class="block">
-                        <i class="fa fa-code fa-3x mt-2"></i>
-                        <h4 class="text-uppercase">Web Development</h4>
-                        <p>
-                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.
-                        </p>
-                    </div> 
-                    </div>
-                    <div class="col-sm-4 col-xs-6">
-                    <div class="block">
-                        <i class="fa fa-code fa-3x mt-2"></i>
-                        <h4 class="text-uppercase">web design</h4>
-                        <p>
-                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.
-                        </p>
-                    </div> 
-                    </div>
-                    <div class="col-sm-4 col-xs-6">
-                    <div class="block">
-                        <i class="fa fa-magic fa-3x mt-2"></i>
-                        <h4 class="text-uppercase">UX/UI Design</h4>
-                        <p>
-                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.
-                        </p>
-                    </div> 
-                    </div>
-                    <div class="col-sm-4 col-xs-6">
-                    <div class="block">
-                        <i class="fa fa-camera fa-3x mt-2"></i>
-                        <h4 class="text-uppercase">Photography</h4>
-                        <p>
-                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.
-                        </p>
-                    </div> 
-                    </div>
-                    <div class="col-sm-4 col-xs-6">
-                    <div class="block">
-                        <i class="fa fa-lightbulb-o fa-3x mt-2"></i>
-                        <h4 class="text-uppercase">brand identity</h4>
-                        <p>
-                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.
-                        </p>
-                    </div> 
-                    </div>
-                    <div class="col-sm-4 col-xs-6">
-                    <div class="block">
-                        <i class="fa fa-user-secret fa-3x mt-2"></i>
-                        <h4 class="text-uppercase">analytics</h4>
-                        <p>
-                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.
-                        </p>
-                    </div> 
-                    </div>
+                   {
+                       provideService.map(data => <ServiceList data={data} />)
+                   }
                 </div>
                 </section>
         </section>
