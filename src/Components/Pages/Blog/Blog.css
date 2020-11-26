@@ -37,8 +37,11 @@
     width: 30px;
     height: 30px;
     transition: all 0.5s;
+    border-radius: 50%;
 }
 
 .love-btn:hover {
-    transform: rotate(360deg)
+    transform: rotate(360deg);
+    border: 1px solid white;
+    box-shadow: 0px 0px 10px 0px red;
 }
